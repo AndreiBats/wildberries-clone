@@ -2,9 +2,9 @@
   "name": "wildberries-clone",
   "version": "1.0.0",
   "description": "Hello, World!",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel ./src/index.html"
+    "start": "parcel ./src/index.html",
+    "build": "parcel ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/AndreiBats/wildberries-clone#readme",
   "devDependencies": {
-    "parcel": "^2.6.0"
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "sass": "^1.52.3"
   }
 }
